@@ -3,12 +3,22 @@ padding: 0;
 margin: 0;
 font-family: poppins,sans-serif
 }
+html{
+    font-size: 62.5%;
+}
+video{
+    height: 30rem;
+    padding: 1rem;
+    margin: 7rem;
+   justify-content: center;
+}
+
 .header{
     background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('bg.jpg');
     color:#fff;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 64rem;
 }
 .nav{
     display: flex;
@@ -17,27 +27,27 @@ font-family: poppins,sans-serif
     align-items: center;
 }
 .nav img{
-    width:170px;
-    padding:30px 60px;
+    width:17rem;
+    padding:3rem 6rem;
 }
 .nav input{
-    width: 6vw;
-    height: 5vh;
+    width: 7.5rem;
+    height: 3.5rem;
 }
 .nav .b1{
-    margin-right:20px;
-    background-color: black;
+    margin-right:2rem;
+    background-color: rgba(0, 0, 0, 0.557);
     border: none;
-    border-radius: 2px;
+    border-radius: .2rem;
     color: #fff;
     font-weight: bold;
     border: 1px solid white;
 }
 .nav .b2{
-    margin-right: 60px;
+    margin-right: 6rem;
     background-color: #e50914;
     border: none;
-    border-radius: 2px;
+    border-radius: .2rem;
     color: #fff;
     font-weight: bold;
 }
@@ -48,49 +58,50 @@ font-family: poppins,sans-serif
 .body{
     display: grid;
     grid-template-rows: auto auto auto;
-    grid-gap: 30px 0;
-    padding-top: 130px;
+    grid-gap: 3rem 0;
+    padding-top: 13rem;
 }
 .body h1, p{
     text-align: center;
 }
 .body p{
-    font-size: 20px;
+    font-size: 2rem;
 }
 .body .p1{
-    font-size: 25px;
+    font-size: 2.5rem;
     font-weight: 500;
 }
 .body h1{
-    font-size: 60px;
+    font-size: 6rem;
 }
 .input{
-    margin-top: 20px;
+    margin-top: 2rem;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 .input input{
-    height: 9vh;
+    height: 7rem;
     border: none;
 }
 .v1, .v2{
-    box-shadow: 2px -2px 5px rgb(161, 161, 161);
+    box-shadow: .2rem -.2rem .5rem rgb(161, 161, 161);
 }
 
 .input #email{
-    width: 30vw;
-    border-radius:2px 0 0 2px;
+    width: 38rem;
+    border-radius:.2rem 0 0 .2rem;
 }
 .input #email::placeholder{
-    font-size: 20px;
+    font-size: 2rem;
 }
 .input #btn{
-    width: 15vw;
+    width: 20rem;
     background-color: #e50914 ;
     color: #fff;
     font-weight: 500;
-    font-size: 30px;
-    border-radius: 0 4px 4px 0;
+    font-size: 3rem;
+    border-radius: 0 .4rem .4rem 0;
 }
 .input #btn:hover{
     background-color: #cc000a;
@@ -99,141 +110,163 @@ input{
     cursor: pointer;
 }
 .br{
-    width: 100vw;
-    height: 6px;
+    width: 100%;
+    height: .6rem;
     background-color: rgb(56, 56, 56);
 }
 /* end :first */
 /* :startsecond and third */
-.second, .third{
+.second {
     display: flex;
     flex-direction: row;
     background-color:#000;
-    height: 70vh;
+    height: auto;
+    color: #fff;
+    /* padding: 5rem; */
+    justify-content: space-evenly;
+    align-content: center;
+}
+.third{
+    display: flex;
+    flex-direction: row;
+    background-color:#000;
+    height: auto;
+    padding: 5rem;
     color: #fff;
     justify-content: space-evenly;
     align-items: center;
 }
-.second,.third h2{
-    padding-bottom: 12px;
-    font-size: 50px;
+.third h2{
+    padding-bottom: 1.2rem;
+    font-size: 5rem;
+    text-align: start;
 }
 .second h2{
-    padding-bottom: 12px;
-    font-size: 50px;
+    padding-bottom: 1.2rem;
+    font-size: 5rem;
 }
 .second, .third p{
-    line-height: 25px;
+    line-height: 2.5rem;
     font-size: 1.4rem;
-    letter-spacing: 1.6px;
+    letter-spacing: .16rem;
     text-align: start;
 }
 .second p{
-    padding: 15px 0 0 0;
+    padding: 1.5rem 0 0 0;
     text-align: start;
 }
 /* :endsecond and third*/
 /* startforth */
-.forth, .five{
+.forth{
     display: flex;
     background-color: #000;
     color: #fff;
     justify-content: space-evenly;
-    height: 70vh;
+    height: auto;
+    align-items: center;
+}
+.five{
+    display: flex;
+    background-color: #000;
+    color: #fff;
+    justify-content: space-evenly;
+    height: auto;
     align-items: center;
 }
 .forth .tv1 p{
-    line-height: 25px;
+    line-height: 2.5rem;
     font-size: 1.4rem;
-    letter-spacing: 1.3px;
+    letter-spacing: .13rem;
     text-align: start;
 }
 .forth .tv1 h2{
-    font-size: 50px;
-    padding-bottom: 12px;
+    font-size: 5rem;
+    margin-top: 5rem;
+    padding-bottom: 1.2rem;
 }
 .loginpage{
-    margin-top: ;
+    font-size: 1.9rem;
 }
 .five .tv1 p{
-    line-height: 25px;
+    line-height: 2.5rem;
     font-size: 1.4rem;
-    letter-spacing: 1.3px;
+    letter-spacing: .13rem;
     text-align: start;
 }
 .five .tv1 h2{
-    font-size: 50px;
-    padding-bottom: 12px;
+    font-size: 5rem;
+    padding-bottom: 1.2rem;
 }
 /* endforth */
 /* footerstart */
 .footer{
     background-color: #000;
-    width: 100vw;
+    width: 100%;
     color: #fff;
-    height:150vh;
+    height:auto;
 }
 .fq {
     display:flex;
+    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
     
 }
 .footer h1{
-    font-size: 50px;
+    font-size: 5rem;
     text-align: center;
-    padding: 60px 0 40px 0;
+    padding: 6rem 0 4rem 0;
 }
 .fq p{
-    width: 50vw;
-    font-size: 25px;
+    width: 50%;
+    font-size: 2.5rem;
     background-color: #303030;
-    height: 7vh;
-    border-radius: 3px;
-    margin-top: 10px;
+    height: 4.5rem;
+    border-radius: .3rem;
+    margin-top: 1rem;
     text-align: start;
-    padding: 15px 0 0 40px;
+    padding: 1.5rem 0 0 4rem;
 }
 .fq p:hover{
     background-color: #cc000a;
     transition: .3s;
 }
 .input{
-    margin-top: 20px;
+    margin-top: 2rem;
     display: flex;
     justify-content: center;
 }
 .input input{
-    height: 9vh;
+    height: 5.5rem;
     border: none;
-    margin-bottom: 40px;
+    margin-bottom: 4rem;
     
 }
 .input #email{
-    width: 30vw;
-    border-radius:2px 0 0 2px;
+    width: 30%;
+    border-radius:.2rem 0 0 .2rem;
 }
 .loginpage .input #email::placeholder{
-    font-size: 20px;
+    font-size: 2rem;
 }
 .loginpage  .input #btn{
-    width: 15vw;
+    width: 15%;
     background-color: #e50914 ;
     color: #fff;
     font-weight: 500;
-    font-size: 30px;
-    border-radius: 0 4px 4px 0;
+    font-size: 3rem;
+    border-radius: 0 .4rem .4rem 0;
 }
 .loginpage  .input #btn:hover{
     background-color: #e50914;
 }
 .loginpage p{
-    padding: 60px 0 5px 0;
+    padding: 6rem 0 .5rem 0;
 }
 .footlink{
     display: grid;
     grid-template-columns: auto auto auto auto;
-    margin: 40px 20px;
+    margin: 4rem 2rem;
     justify-content: space-around;
 }
 .footer ul li{
@@ -242,7 +275,8 @@ input{
 .footer ul a{
     text-decoration: none;
     color:gray;
-    line-height: 30px;
+    line-height: 3rem;
+    font-size: 1.2rem;
 
 }
 .footer ul li a:hover{
@@ -251,12 +285,77 @@ input{
 }
 .footer h3{
     text-align: center;
-    padding-top: 20px;
+    padding: 2rem 0 ;
     font-family:fantasy;
+    font-size:1.5rem;
 }
 .footer  span{
     color: #cc000a;
     font-family:fantasy;
-    font-size: 25px;
+    font-size: 2.5rem;
 }
-/* footerend */
+
+@media screen and (max-width:480px) {
+    html{
+        font-size: 35%;
+    }
+    img{
+        margin-top:3rem;
+    }
+    .third{
+        flex-wrap: wrap-reverse;
+    }
+    .second{
+        flex-wrap: wrap;
+    }
+    .second{
+        padding: 5rem;
+    }
+.second p{
+        text-align: center;
+        padding: 4rem;
+    }
+.third p{
+        text-align: center;
+        /* padding: 4rem 0 0 0; */
+    }
+ .third h2{
+    text-align: center;
+    padding: 4rem;
+ }
+    .third img{
+        margin: 2rem;
+        width: 50rem;
+    }
+    .forth{
+        flex-wrap: wrap;
+    }
+.forth .tv1 p{
+        text-align: center;
+        padding: 4rem 0 0 0;
+}
+.forth img{
+        margin: 2rem;
+        width: 50rem;
+    }
+.five .tv1 p{
+        text-align: center;
+        padding: 4rem 0 0 0;
+    }
+    .five{
+        flex-wrap: wrap-reverse;
+    }
+    .five .tv1 h2{
+        text-align: center;
+        padding: 5rem 0 0 0 ;
+    }
+.five img{
+        margin: 2rem;
+        width: 50rem;
+    }
+    .header .ram{
+        font-size: 2rem;
+        width: 12rem;
+        height: 5rem;
+    }   
+}
